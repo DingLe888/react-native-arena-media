@@ -9,6 +9,20 @@
 
 `$ react-native link react-native-arena-media`
 
+### 配置
+* iOS
+
+配置摄像机访问权限 Privacy - Camera Usage Description
+配置相册访问权限  Privacy - Photo Library Usage Description
+
+* Android
+
+主模块的Manifast标签加上
+          xmlns:tools="http://schemas.android.com/tools"
+
+
+
+
 ### Manual installation
 
 
