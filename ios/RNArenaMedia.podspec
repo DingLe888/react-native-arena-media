@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/DingLe888/react-native-arena-media.git", :tag => "master" }
-  s.source_files  = "RNArenaMedia.h"
+  s.source_files  = "RNArenaMedia/**/*.{h,m}"
   s.resources    =  "RNArenaMedia.bundle"
 
   s.dependency "React"
